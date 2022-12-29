@@ -56,4 +56,39 @@ a {
   line-height: 1.33;
   text-align: center;
   color: #FFFFFF;
+}
+
+.services__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
+}
+
+.about-us__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
+}
+
+.work__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+.our-projects__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.video__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
