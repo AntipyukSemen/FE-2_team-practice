@@ -46,14 +46,13 @@ a {
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   padding-top: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #A1A1A1;
   left: 0;
   right: 0;
   top: 0;
-  background-color: rgba(62, 62, 62, 0.5);
 }
 
 .header__link {
