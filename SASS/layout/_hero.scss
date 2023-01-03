@@ -1,6 +1,17 @@
+.hero{
+    background-image: url(../../images/hero.jpg);
+    padding-top: 220px;
+    padding-bottom: 335px;
+}
+
+.hero .container{
+    text-align: center;
+}
+
 .hero__text{    
     text-align: center;    
     color: $secondary-text-color;
+    margin-bottom: 20px;
 }
 
 .hero__title{
@@ -9,6 +20,14 @@ font-size: 48px;
 line-height: 1.33;
 text-align: center;
 color:$secondary-text-color;
+max-width: 829px;
+margin: 0 auto 50px;
 }
 
 
+.hero__button{
+    @extend %button;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

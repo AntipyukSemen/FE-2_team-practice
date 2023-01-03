@@ -2,6 +2,14 @@ body {
   font-family: "Montserrat";
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -25,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-.button {
+.hero__button {
   text-align: center;
   color: #FFFFFF;
   width: 200px;
@@ -38,16 +46,57 @@ a {
 }
 
 .header {
-  background-color: black;
+  position: fixed;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #A1A1A1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(62, 62, 62, 0.5);
 }
 
 .header__link {
   color: #FFFFFF;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  bottom: -39px;
+}
+
+.header__pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.hero {
+  background-image: url(../../images/hero.jpg);
+  padding-top: 220px;
+  padding-bottom: 335px;
+}
+
+.hero .container {
+  text-align: center;
 }
 
 .hero__text {
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .hero__title {
@@ -56,6 +105,14 @@ a {
   line-height: 1.33;
   text-align: center;
   color: #FFFFFF;
+  max-width: 829px;
+  margin: 0 auto 50px;
+}
+
+.hero__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services__title {
