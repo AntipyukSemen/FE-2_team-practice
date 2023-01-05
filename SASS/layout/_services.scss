@@ -9,6 +9,7 @@
 .services{
     padding-top: 100px;
     padding-bottom: 105px;
+    text-align: center
 }
 .services__description{
     @extend %text;
@@ -19,6 +20,7 @@
 }
 .services__list{
     margin-top: 70px;
+    margin-bottom: 55px;
 }
 .services__button{
     @extend %button;
@@ -30,4 +32,5 @@
 .services__about{
     @extend %sub-text;
  margin-top: 12px;
+
 }

@@ -151,6 +151,7 @@ a {
 .services {
   padding-top: 100px;
   padding-bottom: 105px;
+  text-align: center;
 }
 
 .services__description {
@@ -162,6 +163,7 @@ a {
 
 .services__list {
   margin-top: 70px;
+  margin-bottom: 55px;
 }
 
 .services__about {
