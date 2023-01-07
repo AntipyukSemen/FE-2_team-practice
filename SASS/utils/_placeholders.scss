@@ -9,24 +9,24 @@
   border: none;
 }
 
-%text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.56;
-  text-align: center;
-  color: $base-color;
-}
-
 %sub-title {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.22;
-color: $title-main-color;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: $title-main-color;
 }
 
-%sub-text{
+%sub-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
   color: $base-color;
+}
+
+%link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: $accent-color;
 }
