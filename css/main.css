@@ -37,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-.services__button, .hero__button {
+.work__button, .services__button, .hero__button {
   text-align: center;
   color: #FFFFFF;
   width: 200px;
@@ -316,11 +316,29 @@ a {
   color: #999999;
 }
 
+.work {
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+
+.work__service-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 53px;
   color: #FFFFFF;
+  max-width: 540px;
 }
 
 .our-projects__title {

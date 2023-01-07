@@ -1,3 +1,19 @@
-.work__title{
-    @include title-section($secondary-text-color);
+.work {
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+
+.work__service-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work__title {
+  @include title-section($secondary-text-color);
+  max-width: 540px;
+}
+
+.work__button {
+  @extend %button;
 }
