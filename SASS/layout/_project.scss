@@ -1,3 +1,11 @@
 .our-projects__title{
     @include title-section($title-main-color);
 }
+
+.our-projects__list{
+    @include grid();
+}
+
+.our-projects__item{
+    @include item($items: 4);
+}

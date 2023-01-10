@@ -11,3 +11,18 @@
   text-align: $text-position;
   color: $base-color;
 }
+
+
+@mixin grid($grid-left: -30px, $grid-bottom: -30px){
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: $grid-left;
+  margin-bottom: $grid-bottom;
+}
+
+@mixin item($item-left: 30px, $item-bottom: 30px, $items: 3){
+  flex-basis: calc((100% - ($items * $item-left)) /  $items);
+  margin-left: $item-left;
+  margin-bottom: $item-bottom;
+}
