@@ -59,7 +59,7 @@ a {
   border: none;
 }
 
-.work__subtitle, .services__name {
+.feedback__title, .work__subtitle, .services__name {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
@@ -73,7 +73,7 @@ a {
   color: #999999;
 }
 
-.work__link, .about-us__link {
+.feedback__button, .work__link, .about-us__link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -536,4 +536,70 @@ a {
   margin-right: auto;
   height: 1px;
   margin-top: 85px;
+}
+
+.feedback {
+  text-align: center;
+  padding-bottom: 85px;
+}
+
+.feedback__title {
+  margin-bottom: 20px;
+}
+
+.feedback__ad {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: left;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feedback__input {
+  width: 100%;
+  display: block;
+  border: 1px solid #f2f2f2;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 33px;
+}
+
+.feedback__button {
+  width: 190px;
+  height: 45px;
+  background: #4985FF;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 36px;
+  border: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  position: absolute;
+  right: -38px;
+  top: 2px;
+}
+
+.feedback form {
+  position: relative;
+  width: 489px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback__warning {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.62;
+  text-align: center;
+  color: #999999;
+  margin-top: 35px;
 }/*# sourceMappingURL=main.css.map */
