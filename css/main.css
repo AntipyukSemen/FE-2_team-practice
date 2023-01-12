@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.work__button, .services__button, .hero__button {
+.our-projects__button, .work__button, .services__button, .hero__button {
   text-align: center;
   color: #FFFFFF;
   width: 200px;
@@ -395,11 +395,19 @@ a {
   margin-bottom: 47px;
 }
 
+.our-projects {
+  padding-top: 100px;
+  padding-bottom: 130px;
+  background-color: #F6F6F8;
+}
+
 .our-projects__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 53px;
   color: #000000;
+  text-align: center;
+  margin-bottom: 28px;
 }
 
 .our-projects__list {
@@ -420,6 +428,26 @@ a {
       flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+.our-projects__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: left;
+  color: #999999;
+  max-width: 730px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.our-projects__button {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .video {

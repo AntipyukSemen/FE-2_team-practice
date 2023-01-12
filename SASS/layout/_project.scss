@@ -1,5 +1,13 @@
+.our-projects{
+    padding-top: 100px;
+    padding-bottom: 130px;
+    background-color: #F6F6F8; 
+}
+
 .our-projects__title{
     @include title-section($title-main-color);
+    text-align: center;
+    margin-bottom: 28px;
 }
 
 .our-projects__list{
@@ -9,3 +17,22 @@
 .our-projects__item{
     @include item($items: 4);
 }
+
+.our-projects__text{
+    @include text;
+    max-width: 730px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.our-projects__button{
+    @extend %button;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
