@@ -1,6 +1,7 @@
 .work {
   padding-top: 100px;
   padding-bottom: 85px;
+  background-image: linear-gradient(to bottom,  #504DC2 50%, #fff 50%);
 }
 
 
@@ -8,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .work__title {

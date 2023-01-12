@@ -329,6 +329,8 @@ a {
 .work {
   padding-top: 100px;
   padding-bottom: 85px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #504DC2), color-stop(50%, #fff));
+  background-image: linear-gradient(to bottom, #504DC2 50%, #fff 50%);
 }
 
 .work__service-block {
@@ -341,6 +343,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 .work__title {
