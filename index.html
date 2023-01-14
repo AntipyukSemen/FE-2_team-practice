@@ -322,70 +322,147 @@
       </section>
       <!-- section feedback -->
       <section class="feedback">
-          <h2 class="feedback__title">Підпишіться на нашу розсилку</h2>
-          <p class="feedback__ad">
-            Корисні статті, акції, новини - отримайте все це зараз!
-          </p>
-          <form>
-            <input
-              type="email"
-              class="feedback__input"
-              placeholder="Ваш e-mail"
-              required
-            />
-            <button class="feedback__button text-link button" type="submit">
-              Підписатися
-            </button>
-          </form>
-          <p class="feedback__warning">
-            Ми не шлем спам, і не передаємо нікому ваші дані
-          </p>
+        <h2 class="feedback__title">Підпишіться на нашу розсилку</h2>
+        <p class="feedback__ad">
+          Корисні статті, акції, новини - отримайте все це зараз!
+        </p>
+        <form>
+          <input
+            type="email"
+            class="feedback__input"
+            placeholder="Ваш e-mail"
+            required
+          />
+          <button class="feedback__button text-link button" type="submit">
+            Підписатися
+          </button>
+        </form>
+        <p class="feedback__warning">
+          Ми не шлем спам, і не передаємо нікому ваші дані
+        </p>
       </section>
     </main>
 
     <!-- footer  -->
 
     <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <h3 class="footer__title">Контактная информация</h3>
-          <address class="footer__adress">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <h3 class="footer__title">Контактная информация</h3>
+            <address class="footer__adress">
+              <ul class="information">
+                <li class="information__item">
+                  <svg class="footer__svg" width="15" height="15">
+                    <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                  </svg>
+                  <span class="adress__link">test@test.ru</span>
+                </li>
+                <li class="information__item">
+                  <svg class="footer__svg" width="15" height="15">
+                    <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                  </svg>
+                  <span class="adress__link">+3 8096 555 66 99</span>
+                </li>
+                <li class="information__item">
+                  <svg class="footer__svg" width="15" height="15">
+                    <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                  </svg>
+                  <span class="adress__link">Тернопіль вул С. Бандери</span>
+                </li>
+              </ul>
+            </address>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__title">Основні посилання</h3>
             <ul class="information">
-              <li class="information__item">test@test.ru</li>
-              <li class="information__item">+3 8096 555 66 99</li>
-              <li class="information__item">Тернопіль вул С. Бандери</li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Головна</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Наші проекти</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Наші послуги</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Контакти</span>
+              </li>
             </ul>
-          </address>
-        </li>
-        <li class="footer__item">
-          <h3 class="footer__title">Основні посилання</h3>
-          <ul class="information">
-            <li class="information__item">Головна</li>
-            <li class="information__item">Наші проекти</li>
-            <li class="information__item">Наші послуги</li>
-            <li class="information__item">Контакти</li>
-          </ul>
-        </li>
-        <li class="footer__item">
-          <h3 class="footer__title">Наші проекти</h3>
-          <ul class="information">
-            <li class="information__item">Укрпошта</li>
-            <li class="information__item">Нафтогаз</li>
-            <li class="information__item">Львівська пивоварня</li>
-            <li class="information__item">ТЭЦ Калуша</li>
-          </ul>
-        </li>
-        <li class="footer__item">
-          <h3 class="footer__title">Соціальні мережі</h3>
-          <ul class="information">
-            <li class="information__item">LinkedIn</li>
-            <li class="information__item">Instagram</li>
-            <li class="information__item">Facebook</li>
-            <li class="information__item">Twitter</li>
-          </ul>
-        </li>
-      </ul>
-      <p class="footer__description">(с) 2019. Всі права захищені</p>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__title">Наші проекти</h3>
+            <ul class="information">
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Укрпошта</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Нафтогаз</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Львівська пивоварня</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">ТЭЦ Калуша</span>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__title">Соціальні мережі</h3>
+            <ul class="information">
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">LinkedIn</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Instagram</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Facebook</span>
+              </li>
+              <li class="information__item">
+                <svg class="footer__svg" width="15" height="15">
+                  <use href="./images/symbol-defs.svg#icon-right"></use>
+                </svg>
+                <span class="information__text">Twitter</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p class="footer__description">(с) 2019. Всі права захищені</p>
+      </div>
     </footer>
   </body>
 </html>

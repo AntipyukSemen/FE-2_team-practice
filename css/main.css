@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 .our-projects__button, .work__button, .services__button, .hero__button {
   text-align: center;
   color: #FFFFFF;
@@ -59,14 +63,14 @@ a {
   border: none;
 }
 
-.feedback__title, .work__subtitle, .services__name {
+.footer__title, .feedback__title, .work__subtitle, .services__name {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
   color: #000000;
 }
 
-.services__about {
+.information__text, .adress__link, .services__about {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
@@ -80,6 +84,14 @@ a {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #4985FF;
+}
+
+.footer__description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.61;
+  text-align: center;
+  color: #999999;
 }
 
 .header {
@@ -602,4 +614,54 @@ a {
   text-align: center;
   color: #999999;
   margin-top: 35px;
+}
+
+.footer {
+  background-color: #F6F6F8;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -40px;
+  margin-bottom: -30px;
+}
+
+.footer__item {
+  margin-left: 40px;
+}
+
+.footer__item:first-child {
+  margin-left: 0;
+}
+
+.footer__svg {
+  fill: #999999;
+  margin-right: 15px;
+}
+
+.information__item {
+  margin-top: 30px;
+}
+
+.information__item:first-child {
+  margin-top: 35px;
+}
+
+.footer__description::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #999999;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */

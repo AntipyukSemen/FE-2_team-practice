@@ -1,0 +1,59 @@
+.footer{
+    background-color: #F6F6F8;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+
+
+.footer__list{
+    @include grid($grid-left: -40px)
+}
+
+.footer__item{
+    margin-left: 40px;
+}
+
+.footer__item:first-child{
+    margin-left: 0
+}
+
+.adress__link{
+    @extend %sub-text;
+}
+
+.footer__title{
+    @extend %sub-title;
+}
+
+.footer__svg{
+    fill: $base-color;
+    margin-right: 15px;
+}
+
+.information__item{
+    margin-top: 30px;
+}
+
+.information__item:first-child{
+    margin-top: 35px;
+}
+
+.information__text{
+    @extend %sub-text;
+}
+
+.footer__description::before{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: $base-color;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.footer__description{
+    @extend %secondary-text;
+    
+}
