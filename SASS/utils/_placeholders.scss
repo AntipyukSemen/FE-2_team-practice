@@ -7,6 +7,14 @@
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   border: none;
+  transform: rotate(0);
+  transition: transform;
+  transition-duration: 250ms;
+  transition-delay: 50ms;
+
+  &:hover{
+    transform: scale(1.2);
+  }
 }
 
 %sub-title {

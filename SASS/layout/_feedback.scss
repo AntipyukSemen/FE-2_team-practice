@@ -1,6 +1,6 @@
 .feedback {
   text-align: center;
-  padding-bottom: 85px
+  padding-bottom: 85px;
 }
 
 .feedback__title {
@@ -25,37 +25,54 @@
   padding-left: 33px;
 }
 
-.feedback__button{
-    width: 190px;
-height: 45px;
-    background: #4985FF;
-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-border-radius: 0px 30px 30px 0px;
-padding-top: 13px;
-padding-bottom: 15px;
-padding-left: 26px;
-padding-right: 36px;
-border: none;
-@extend %link;
-text-decoration: none;
-color: $secondary-text-color;
-position: absolute;
-right: -38px;
-top: 2px;
+.feedback__button {
+  width: 190px;
+  height: 45px;
+  background-color: $accent-color;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 36px;
+  border: none;
+  @extend %link;
+  text-decoration: none;
+  color: $secondary-text-color;
+  position: absolute;
+  right: -38px;
+  top: 2px;
+  transition-property: transform, background-color;
+  transition-duration: 300ms;
+  transition-delay: 50ms;
+
+  .feedback form:hover &{
+    transform: scale(1.1);
+    background-color: #698bd0;
+  }
 }
 
-.feedback form{
-    position: relative;
-    width: 489px;
-    margin-left: auto;
-    margin-right: auto;
+.feedback form {
+  position: relative;
+  width: 489px;
+  margin-left: auto;
+  margin-right: auto;
+  transition-property: transform, box-shadow;
+  transition-duration: 300ms;
+  transition-delay: 50ms;
+  border-radius: 30px;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(107, 69, 244, 0.25);
+  }
 }
 
-.feedback__warning{
-    font-weight: 400;
-font-size: 13px;
-line-height: 1.62;
-text-align: center;
-color: $base-color;
-margin-top: 35px;
+.feedback__warning {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.62;
+  text-align: center;
+  color: $base-color;
+  margin-top: 35px;
 }
