@@ -8,10 +8,34 @@
     text-align: center;
 }
 
-.hero__text{    
+.hero__text{   
+    position: relative;
     text-align: center;    
     color: $secondary-text-color;
     margin-bottom: 20px;
+    animation: text-top 250ms;
+} 
+@keyframes text-top {
+    0%{ 
+        transform: translate(-50%, 100%);
+        opacity: 0;
+       
+    }
+ 25%{
+     opacity: 0.25;
+    } 
+
+ 50%{
+    opacity: 0.50;
+ }
+ 75%{
+    opacity: 0.75;
+ }
+ 100%{
+    transform: translate(-50%, -50%);
+    opacity: 1;
+ }  
+ 
 }
 
 .hero__title{
@@ -30,4 +54,26 @@ margin: 0 auto 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    animation: button-right 500ms;
+}
+
+@keyframes button-right {
+    0%{ 
+        opacity: 0;
+        top: 0;
+    }
+ 25%{
+     opacity: 0.25;
+    } 
+
+ 50%{
+    opacity: 0.50;
+ }
+ 75%{
+    // opacity: 0.75;
+ }
+ 100%{
+    opacity: 1;
+    // top: 50px;
+ }  
 }

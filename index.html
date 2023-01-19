@@ -20,6 +20,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="css/wickedcss.min.css">
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
@@ -27,8 +28,14 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="container-sm">
         <nav class="header__nav">
+          <button type="button" class="header__button-burger btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <svg class="header__burger" width="24" height="16">
+              <use href="./images/symbol-defs.svg#menu-burger"></use>
+            </svg>
+
+          </button>
           <ul class="header__pages">
             <li class="header__page">
               <a class="header__link text-link header-active" href="#"
@@ -67,7 +74,7 @@
       <!-- services section -->
 
       <section class="services">
-        <div class="container">
+        <div class="container-sm">
           <h2 class="services__title">
             Ми створюємо мобільні додатки для великих корпорацій
           </h2>
@@ -133,7 +140,7 @@
       </section>
       <!-- About-us -->
       <section class="about-us">
-        <div class="container">
+        <div class="container-sm">
           <div class="about-us-block">
             <div class="about-us-subblock">
               <h3 class="about-us__title">Високі стандарти розробки</h3>
@@ -195,7 +202,7 @@
       <!-- Work  -->
 
       <section class="work">
-        <div class="container">
+        <div class="container-sm">
           <div class="work__service-block">
             <h2 class="work__title">Наші роботи на яких ми спеціалізуємось</h2>
             <button type="button" class="work__button text-link button">
@@ -256,7 +263,7 @@
       </section>
       <!-- section project -->
       <section class="our-projects">
-        <div class="container">
+        <div class="container-sm">
           <h2 class="our-projects__title">Наші проекти</h2>
           <p class="our-projects__text">
             Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
@@ -300,7 +307,7 @@
       </section>
       <!-- section video -->
       <section class="video">
-        <div class="container">
+        <div class="container-sm">
           <div class="video-background">
             <h2 class="video__title">Відео про нашу роботу</h2>
             <p class="video__text">Просто подивіться, як ми працюємо</p>
@@ -351,7 +358,7 @@
     <!-- footer  -->
 
     <footer class="footer">
-      <div class="container">
+      <div class="container-sm">
         <ul class="footer__list">
           <li class="footer__item">
             <h3 class="footer__title">Контактная информация</h3>
@@ -469,5 +476,43 @@
         <p class="footer__description">(с) 2019. Всі права захищені</p>
       </div>
     </footer>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="exampleModalLabel">Modal title</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul class="modal__pages">
+          <li class="modal__page">
+            <a class="modal__link text-link modal-active" href="#"
+              >Головна</a
+            >
+          </li>
+
+          <li class="modal__page">
+            <a class="modal__link text-link" href="#">Наші проекти</a>
+          </li>
+          <li class="modal__page">
+            <a class="modal__link text-link" href="#">Послуги</a>
+          </li>
+          <li class="modal__page">
+            <a class="modal__link text-link" href="#">Новини</a>
+          </li>
+          <li class="modal__page">
+            <a class="modal__link text-link" href="#">Контакти</a>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Замовити послугу</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

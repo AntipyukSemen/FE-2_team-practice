@@ -9,7 +9,26 @@
 
 }
 
+.header__button-burger{
+  position: absolute;
+  background-color: transparent;
+  top: 40px;
+  left: 40px;
+  border: none;
+  display: block;
+  @media screen and (min-width: 768px){
+    display: none;
+  }
+}
 
+.header__burger{
+
+
+}
+
+.modal__pages{
+  color: black;
+}
 
 .header__link {
   color: $secondary-text-color;
@@ -31,8 +50,10 @@
 }
 
 .header__pages{
-  display: flex;
   justify-content: right;
-  
+  display: none;
+  @media screen and (min-width: 768px){
+    display: flex;
+  }
 }
 
