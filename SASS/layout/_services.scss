@@ -19,10 +19,10 @@
     margin-right: auto;
 }
 .services__list{
+    @include grid();
     margin-top: 70px;
     margin-bottom: 55px;
-    display: flex;
-    gap: 27px;
+    
 }
 .services__button{
     @extend %button;
@@ -38,7 +38,7 @@
 }
 
 .services__item{
-    width: 353px;
+    @include item();
     text-align: left;
     display: flex;
 }

@@ -28,6 +28,9 @@
 
 .work__item{
   @include item();
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .work__number{
