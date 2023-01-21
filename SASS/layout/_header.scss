@@ -12,18 +12,18 @@
 .header__button-burger{
   position: absolute;
   background-color: transparent;
-  top: 40px;
-  left: 40px;
+  top: 20px;
+  right: 40px;
   border: none;
   display: block;
+
   @media screen and (min-width: 768px){
     display: none;
   }
 }
 
 .header__burger{
-
-
+fill: #fff;
 }
 
 .modal__pages{

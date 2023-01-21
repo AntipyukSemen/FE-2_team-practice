@@ -15,11 +15,8 @@ ul {
 img {
   display: block;
   max-width: 100%;
-}
-@media screen and (max-width: 767px) {
-  img {
-    margin: 0 auto;
-  }
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,8 +105,8 @@ address {
 .header__button-burger {
   position: absolute;
   background-color: transparent;
-  top: 40px;
-  left: 40px;
+  top: 20px;
+  right: 40px;
   border: none;
   display: block;
 }
@@ -117,6 +114,10 @@ address {
   .header__button-burger {
     display: none;
   }
+}
+
+.header__burger {
+  fill: #fff;
 }
 
 .modal__pages {
@@ -219,12 +220,17 @@ address {
 }
 .hero__title {
   font-weight: 800;
-  font-size: 48px;
   line-height: 1.33;
   text-align: center;
   color: #FFFFFF;
   max-width: 829px;
   margin: 0 auto 50px;
+  font-size: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 48px;
+  }
 }
 
 .hero__button {
@@ -322,8 +328,13 @@ address {
   }
 }
 
+.services__button {
+  margin-top: 55px;
+}
+
 .services__about {
   margin-top: 12px;
+  max-width: 222px;
 }
 
 .services__item {

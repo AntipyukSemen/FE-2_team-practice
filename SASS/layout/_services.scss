@@ -26,6 +26,7 @@
 }
 .services__button{
     @extend %button;
+    margin-top: 55px
 }
 
 .services__name{
@@ -34,7 +35,7 @@
 .services__about{
     @extend %sub-text;
  margin-top: 12px;
-
+max-width: 222px;
 }
 
 .services__item{
